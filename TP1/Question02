@@ -1,0 +1,21 @@
+let number = Math.floor(Math.random() * 1000 + 1);
+if (number % 2 == 0) console.log('Le nombre', number, 'est', 'pair');
+else console.log('Le nombre', number, 'est', 'impair');
+
+/*
+ * 👋 Welcome to RunJS 🚀
+ *
+ * To get started, try typing some code into this editor.
+ *
+ * The result will then be shown on the right. 🤯 Mind blowing!
+ *
+ * Activate your copy of RunJS to do even more amazing things,
+ * including:
+ * - installing NPM packages
+ * - opening multiple tabs
+ * - type checking
+ * - autocomplete
+ * - and supporting development 😀
+ *
+ * Enjoy! 💫
+ */

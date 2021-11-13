@@ -1,0 +1,9 @@
+let diametre = (Math.random() * 200).toFixed(1);
+
+console.log(`
+${'Le volume dune sphere de diametre '}${diametre} ${' est de '}${(
+  (4 / 3) *
+  3.14 *
+  Math.pow(diametre / 2, 3)
+).toFixed(1)}${' centimetres cube '}
+`);

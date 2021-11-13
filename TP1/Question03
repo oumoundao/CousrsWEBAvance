@@ -1,0 +1,8 @@
+let prix = Math.random() * 200;
+
+console.log(`
+${'Montant'.padEnd(8, ' ')}:${prix.toFixed(2).padStart(8, ' ')}$
+${'TPS'.padEnd(8, ' ')}:${(prix * 0.05).toFixed(2).padStart(8, ' ')}$
+${'TVQ'.padEnd(8, ' ')}:${(prix * 0.1).toFixed(2).padStart(8, ' ')}$
+${'Total'.padEnd(8, ' ')}:${(prix * 1.15).toFixed(2).padStart(8, ' ')}$
+`);
